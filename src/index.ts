@@ -1,5 +1,6 @@
 //Finsweet attributes
 import { linkblockedit } from '@finsweet/attributes-linkblockedit/';
+import { cmsfilter } from '@finsweet/attributes-cmsfilter';
 
 //Modal
 import { modal } from '$modal/modal';
@@ -12,8 +13,9 @@ import { swipers } from '$utils/swipers';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  nestedElement();
+  //nestedElement();
   linkblockedit();
-  modal();
-  swipers();
+  cmsfilter();
+  //modal();
+  //swipers();
 });
