@@ -10,6 +10,7 @@ import { nestedElement } from './nest/nestElement';
 
 //Utils
 import { swipers } from '$utils/swipers';
+import { emailModal } from '$utils/email-modal';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
@@ -17,5 +18,6 @@ window.Webflow.push(() => {
   linkblockedit();
   cmsfilter();
   modal();
+  emailModal();
   //swipers();
 });
