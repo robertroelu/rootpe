@@ -16,6 +16,6 @@ window.Webflow.push(() => {
   //nestedElement();
   linkblockedit();
   cmsfilter();
-  //modal();
+  modal();
   //swipers();
 });
