@@ -11,6 +11,7 @@ import { nestedElement } from './nest/nestElement';
 //Utils
 import { swipers } from '$utils/swipers';
 import { emailModal } from '$utils/email-modal';
+import { createdBy } from '$utils/createdBy';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
@@ -20,4 +21,5 @@ window.Webflow.push(() => {
   modal();
   emailModal();
   //swipers();
+  createdBy();
 });
